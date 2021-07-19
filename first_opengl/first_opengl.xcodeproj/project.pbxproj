@@ -11,8 +11,8 @@
 		862F75DC228369D700771407 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75D1228354EC00771407 /* OpenGL.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		865A3C33241189AD00579789 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75D72283616A00771407 /* CoreFoundation.framework */; };
 		865A3C34241189C700579789 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75CF228354DD00771407 /* GLUT.framework */; };
-		867EA9FF25EEE6220015C999 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EA9FE25EEE6220015C999 /* libglfw.3.3.dylib */; };
-		867EAA0125EEE66A0015C999 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EAA0025EEE66A0015C999 /* libGLEW.a */; };
+		866B39EA25F017DB00878D17 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EAA0025EEE66A0015C999 /* libGLEW.a */; };
+		866B39EB25F0180A00878D17 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EA9FE25EEE6220015C999 /* libglfw.3.3.dylib */; };
 		86E8519B259E30B700B34AEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8519A259E30B500B34AEA /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867EAA0125EEE66A0015C999 /* libGLEW.a in Frameworks */,
-				867EA9FF25EEE6220015C999 /* libglfw.3.3.dylib in Frameworks */,
+				866B39EB25F0180A00878D17 /* libglfw.3.3.dylib in Frameworks */,
+				866B39EA25F017DB00878D17 /* libGLEW.a in Frameworks */,
 				86E8519B259E30B700B34AEA /* CoreGraphics.framework in Frameworks */,
 				865A3C34241189C700579789 /* GLUT.framework in Frameworks */,
 				862F75DC228369D700771407 /* OpenGL.framework in Frameworks */,
