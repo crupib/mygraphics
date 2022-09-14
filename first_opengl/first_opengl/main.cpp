@@ -4,9 +4,9 @@
 
 #include <iostream>//
 #define GLEW_STATIC
-//#include "/usr/local/Cellar/glew/2.2.0_1/include/GL/glew.h"
+
 #include <glew.h>
-//#include "/usr/local/Cellar/glfw/3.3.3/include/GLFW/glfw3.h"
+
 
 #include <glfw3.h>
 #include <CoreGraphics/CoreGraphics.h>
@@ -31,7 +31,7 @@ GLuint createShaderProgram() {
     "out vec4 color; \n"
     "void main(void) \n"
     "{if(gl_FragCoord.x < 590) color = vec4(0.0,1.0,0.0,1.0); else  color = vec4(1.0,0.0,0.0,1.0);}";
-
+ //   "{if(gl_FragCoord.x < 200) color = vec4(0.0,1.0,0.0,1.0); else  color = vec4(1.0,0.0,0.0,1.0);}";
 
     GLuint vShader = glCreateShader(GL_VERTEX_SHADER);
     GLuint fShader = glCreateShader(GL_FRAGMENT_SHADER);

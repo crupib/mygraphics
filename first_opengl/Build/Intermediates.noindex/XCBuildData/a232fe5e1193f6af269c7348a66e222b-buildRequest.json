@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f5e0fe31f94afd9604f296fed8b1579812aca77f9c68f8a280620efd5232c755"
+    }
+  ],
+  "containerPath" : "/Users/williamcrupi/Documents/github/mygraphics/first_opengl/first_opengl.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/williamcrupi/Documents/github/mygraphics/first_opengl/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/williamcrupi/Documents/github/mygraphics/first_opengl/Build/Products",
+      "derivedDataPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData/first_opengl-hiaaemztqakaxjcfezazdccmtofl/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData/first_opengl-hiaaemztqakaxjcfezazdccmtofl/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/williamcrupi/Documents/github/mygraphics/first_opengl/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

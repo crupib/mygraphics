@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862880F928D1205700F5A42F /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862880F828D1204000F5A42F /* libglfw3.a */; };
+		862880FB28D1224D00F5A42F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862880FA28D1224D00F5A42F /* Cocoa.framework */; };
+		862880FD28D1226F00F5A42F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862880FC28D1226F00F5A42F /* IOKit.framework */; };
 		862F75C8228354A900771407 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 862F75C7228354A900771407 /* main.cpp */; };
 		862F75DC228369D700771407 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75D1228354EC00771407 /* OpenGL.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		865A3C33241189AD00579789 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75D72283616A00771407 /* CoreFoundation.framework */; };
 		865A3C34241189C700579789 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F75CF228354DD00771407 /* GLUT.framework */; };
 		866B39EA25F017DB00878D17 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EAA0025EEE66A0015C999 /* libGLEW.a */; };
-		866B39EB25F0180A00878D17 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EA9FE25EEE6220015C999 /* libglfw.3.3.dylib */; };
 		86E8519B259E30B700B34AEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8519A259E30B500B34AEA /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,26 +28,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		867F9DB2259E2B0E000362D7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		862880F828D1204000F5A42F /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../../usr/local/Cellar/glfw/3.3.8/libglfw3.a; sourceTree = "<group>"; };
+		862880FA28D1224D00F5A42F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		862880FC28D1226F00F5A42F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		862F75C4228354A900771407 /* first_opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = first_opengl; sourceTree = BUILT_PRODUCTS_DIR; };
 		862F75C7228354A900771407 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		862F75CF228354DD00771407 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		862F75D1228354EC00771407 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		862F75D72283616A00771407 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		867EA9FB25EEE56C0015C999 /* first_opengl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = first_opengl.xcodeproj; sourceTree = "<group>"; };
-		867EA9FE25EEE6220015C999 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		867EAA0025EEE66A0015C999 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.a; sourceTree = "<group>"; };
 		86E8519A259E30B500B34AEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		86E8519C259E30DD00B34AEA /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,12 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866B39EB25F0180A00878D17 /* libglfw.3.3.dylib in Frameworks */,
+				862880FB28D1224D00F5A42F /* Cocoa.framework in Frameworks */,
 				866B39EA25F017DB00878D17 /* libGLEW.a in Frameworks */,
 				86E8519B259E30B700B34AEA /* CoreGraphics.framework in Frameworks */,
+				862880FD28D1226F00F5A42F /* IOKit.framework in Frameworks */,
 				865A3C34241189C700579789 /* GLUT.framework in Frameworks */,
 				862F75DC228369D700771407 /* OpenGL.framework in Frameworks */,
 				865A3C33241189AD00579789 /* CoreFoundation.framework in Frameworks */,
+				862880F928D1205700F5A42F /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +92,10 @@
 		862F75CE228354DD00771407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				862880FC28D1226F00F5A42F /* IOKit.framework */,
+				862880FA28D1224D00F5A42F /* Cocoa.framework */,
+				862880F828D1204000F5A42F /* libglfw3.a */,
 				867EAA0025EEE66A0015C999 /* libGLEW.a */,
-				867EA9FE25EEE6220015C999 /* libglfw.3.3.dylib */,
 				867EA9FB25EEE56C0015C999 /* first_opengl.xcodeproj */,
 				86E8519C259E30DD00B34AEA /* InterfaceBuilderKit.framework */,
 				86E8519A259E30B500B34AEA /* CoreGraphics.framework */,
@@ -123,7 +121,6 @@
 				862F75C0228354A900771407 /* Sources */,
 				862F75C1228354A900771407 /* Frameworks */,
 				862F75C2228354A900771407 /* CopyFiles */,
-				867F9DB2259E2B0E000362D7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,7 +137,7 @@
 		862F75BC228354A900771407 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = "William Louis Crupi";
 				TargetAttributes = {
 					862F75C3228354A900771407 = {
@@ -219,6 +216,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -237,15 +235,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"<Multiple",
-					"values>",
-					/usr/local/Cellar/glfw/3.3.3/include/GLFW,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
 					/usr/local/Cellar/glew/2.2.0_1/include/GL,
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"<Multiple",
-					"values>",
-					/usr/local/Cellar/glfw/3.3.3/include/GLFW,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
 					/usr/local/Cellar/glew/2.2.0_1/include/GL,
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
@@ -253,7 +247,7 @@
 					/usr/local/Cellar/glfw/3.3.3/lib,
 				);
 				"LINK_WITH_STANDARD_LIBRARIES[arch=*]" = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				NEW_SETTING = "";
@@ -297,6 +291,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -309,14 +304,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"<Multiple",
-					"values>",
-					/usr/local/Cellar/glfw/3.3.3/include/GLFW,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
 					/usr/local/Cellar/glew/2.2.0_1/include/GL,
 				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/glew/2.2.0_1/include/GL,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
+				);
 				"LINK_WITH_STANDARD_LIBRARIES[arch=*]" = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				NEW_SETTING = "";
@@ -329,17 +325,24 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/glew/2.2.0_1/include/GL,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
+				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
+					"<Multiple",
+					"values>",
+					/usr/local/Cellar/glfw/3.3.8/lib,
 					/usr/local/Cellar/glew/2.2.0_1/lib,
-					/usr/local/Cellar/glfw/3.3.3/lib,
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
-					/usr/local/Cellar/glew/2.2.0/lib,
-					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.8/lib,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -349,19 +352,22 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/Cellar/glew/2.2.0/lib,
-					/usr/local/Cellar/glfw/3.3.2/lib,
-					/usr/local/Cellar/glfw/3.3.3/lib,
-					/usr/local/Cellar/glew/2.2.0_1/lib,
+					"<Multiple",
+					"values>",
+					/usr/local/Cellar/glew/2.2.0_1/include/GL,
+					/usr/local/Cellar/glfw/3.3.8/include/GLFW,
+					/usr/local/Cellar/glfw/3.3.8/lib,
+					/usr/local/Cellar/glfw/3.3.8,
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					/usr/local/Cellar/glew/2.2.0_1/lib,
-					/usr/local/Cellar/glfw/3.3.3/lib,
+					/usr/local/Cellar/glfw/3.3.8/lib,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
